@@ -46,5 +46,5 @@ Year: 1979
 Director: Francis Ford Coppola
 Actors: Marlon Brando, Gary Sinise
 Category: Romance
-Synopsis: A fake movie.
+Synopsis: A beautiful movie of romance.
 ---

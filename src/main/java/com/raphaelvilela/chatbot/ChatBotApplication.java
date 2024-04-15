@@ -28,7 +28,7 @@ public class ChatBotApplication {
 	@PostConstruct
 	public void test(){
 		logger.info("INICIANDO RAG CHATBOT ######################################");
-		logger.info("$$$$$ " + aiAssistanceService.chatFromRAG(new ChatMessageDTO("Give me all Marlon Brando movies ?", LocalDateTime.now())) + " $$$$$$");
+		logger.info("$$$$$ " + aiAssistanceService.chatFromRAG(new ChatMessageDTO("Give me all movies with Marlon Brando? Don't show me movies without him.", LocalDateTime.now())) + " $$$$$$");
 		logger.info("TERMINANDO ######################################");
 		
 		logger.info("INICIANDO HuggingFace CHATBOT ######################################");
